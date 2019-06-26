@@ -7,6 +7,7 @@ public class Server {
 		// TODO Auto-generated method stub
 		ServerSocket server=new ServerSocket(80);	
 		try {
+			//wedfewfwefwef
 			while(true) {
 				Socket client=server.accept();
 				System.out.println("接收到响应");
